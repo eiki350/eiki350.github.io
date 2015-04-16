@@ -7,7 +7,13 @@
 </footer>
 <article class=article>
 <h2 class=article-title>Gitの罠</h2>
-<p class=article-text>前回の更新の時にコミットの部分に本名が書かれている事に気がついた。OS XでのGitの初期設定ではなんと本名がコミットに含まれてしまうのだ。これはまずい。
+<p class=article-text>前回の更新の時にコミットに本名が書かれている事に気がついた。OS XでのGitの初期設定ではなんと本名がコミットに含まれてしまうのだ。これはまずいので、ホームディレクトリの.git configに
+<p class=terminal>
+<code>[user]<br>
+name = 設定したい名前</code>
+<p class=article-text>を追加してコミットに含まれる名前を変更した。しかしGitHub上の本名の含まれたコミットは残ったままだ。これを消そうと色々やったのだが途中で訳が分からなくなった。もうこうなったらリポジトリごと作り直そうと私は思った。
+<p class=article-text>……思ったのだがローカルのリポジトリが消せない。どう消せば良いのか調べたら普通にrm -rfで消せば良いようだ。あとはGitHub上のリポジトリをSettingsから消して、リポジトリを作り直すだけだ。
+<p class=article-text>こうしてリポジトリは作り直され、このサイトも無事復活したのだった。めでたしめでたし。
 </article>
 <article class=article>
 <h2 class=article-title>サイトのコミットスクリプト</h2>
@@ -21,7 +27,7 @@
 </article>
 <article class=article>
 <h2 class=article-title>PlayStation 4</h2>
-<p class=article-text>そういえば少し前にPlayStation 4を買った。色は白。付属のコントローラーのDualShock 4はなかなか使いやすい。
+<p class=article-text>そういえば少し前にPlayStation 4を買った。色は白。付属のコントローラーのDUALSHOCK 4はなかなか使いやすい。
 </article>
 <article class=article>
 <h2 class=article-title>Hello GitHub</h2>

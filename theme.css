@@ -12,16 +12,16 @@ box-shadow:0 1px rgb(240,240,240)}
 .site-title
 {font-size:57px;
 font-weight:normal;
-margin:40px}
+margin:35px}
 .article
 {border-bottom:solid 1px rgb(203,203,203);
 box-shadow:0 1px rgb(240,240,240)}
 .article-title
 {font-size:28px;
-margin:40px}
+margin:35px}
 .article-text
 {font-size:17px;
-margin:40px}
+margin:35px}
 .terminal
 {color:rgb(245,245,245);
 background:rgb(50,50,50);
@@ -29,4 +29,5 @@ border:solid 1px rgb(50,50,50);
 border-radius:5px;
 box-shadow:1px 1px 10px rgb(0,0,0) inset,-1px -1px 10px rgb(0,0,0) inset;
 padding:10px;
-margin:40px}
+margin:35px;
+text-align:left}
