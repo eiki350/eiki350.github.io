@@ -3,7 +3,7 @@
 padding:0}
 body
 {color:rgb(150,150,150);
-background:rgb(225,225,225);
+background-color:rgb(225,225,225);
 font-family:sans-serif;
 text-align:center}
 .footer
@@ -24,7 +24,7 @@ margin:35px}
 margin:35px}
 .terminal
 {color:rgb(245,245,245);
-background:rgb(50,50,50);
+background-color:rgb(50,50,50);
 border:solid 1px rgb(50,50,50);
 border-radius:5px;
 box-shadow:1px 1px 10px rgb(0,0,0) inset,-1px -1px 10px rgb(0,0,0) inset;
